@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+      Lesson: Lesson 5 - Applying Inline CSS
+      Date: June 2026
+      Purpose: To demonstrate different CSS styles on a web page.
+    -->
+    
+    <title>Daniela's Inline CSS Page</title>
+    
+    <meta name="author" content="Daniela Barragan Cortazar">
+    <meta name="description" content="This page demonstrates how to use inline CSS styles for fonts and colors.">
+    <meta name="keywords" content="CSS, inline styles, font families, color codes, web design">
+</head>
+<body>
+
+    <!-- Centering all header elements with a single inline style on the parent container -->
+    <header style="text-align: center;">
+        <!-- If Arial is missing, the browser will try Helvetica. If both are missing, it uses any sans-serif font. -->
+        <h1 style="color: #e776ef; font-size: 32px; font-family: Arial, Helvetica, sans-serif;">Applying Inline CSS</h1>
+        
+        <!-- Font-weight values can be: 1. Keywords (normal, bold) 2. Relative (lighter, bolder) 3. Numbers (100 to 900) -->
+        <p style="font-weight: bold;">"Your chosen inspirational quote goes here."</p>
+        
+        <!-- <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+    <main>
+        <!-- Color applied using the color name method -->
+        <h2 style="color: rgb(246, 86, 166);">Understanding Generic Font Families</h2>
+        <!-- Shorthand font property using a relative size (em) and sans-serif fonts -->
+        <p style="font: 1.2em Helvetica, Arial, sans-serif;">Generic font families are broad groups of fonts. Serif fonts have tiny feet on the letters. Sans-serif fonts are clean and have no feet. Monospace fonts use the exact same width for every single letter.</p>
+
+        <!-- Color applied using the RGB method -->
+        <h2 style="color: rgb(164, 228, 164);">How to Add Color to Web Pages</h2>
+        <!-- Shorthand font property using an italic style, pixel size, and monospace fonts -->
+        <p style="font: italic 18px 'Courier New', Courier, monospace;">You can add color to text in three main ways. First, you can use standard color names like red or blue. Second, you can use hex codes which look like numbers and letters. Third, you can use RGB codes to mix red, green, and blue light.</p>
+    </main>
+
+    <!-- Right aligning all footer elements with a single inline style on the parent container -->
+    <footer style="text-align: right;">
+    <p><small>Copyright by Daniela Barragan Cortazar &copy; 2026</small></p>
+    </footer>  
+
+</body>
+</html>
